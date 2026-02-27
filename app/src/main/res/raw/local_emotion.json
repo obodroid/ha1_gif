@@ -1,0 +1,368 @@
+{
+  "emotionMap": [
+    {
+      "fileName": "idle_8",
+      "emotion": "neutral"
+    },
+    {
+      "fileName": "happy_79",
+      "emotion": "happy"
+    },
+    {
+      "fileName": "error_10",
+      "emotion": "sad"
+    },
+    {
+      "fileName": "idle_8",
+      "emotion": "angry"
+    },
+    {
+      "fileName": "error_10",
+      "emotion": "fearful"
+    },
+    {
+      "fileName": "idle_8",
+      "emotion": "disgust"
+    },
+    {
+      "fileName": "error_10",
+      "emotion": "surprised"
+    },
+    {
+      "fileName": "wakeup_1",
+      "emotion": "wakeup"
+    },
+    {
+      "fileName": "listen_2",
+      "emotion": "listen"
+    },
+    {
+      "fileName": "loading_3",
+      "emotion": "loading"
+    },
+    {
+      "fileName": "connect_wifi_4",
+      "emotion": "connect_wifi"
+    },
+    {
+      "fileName": "connecting_wifi_5",
+      "emotion": "connecting_wifi"
+    },
+    {
+      "fileName": "connected_wifi_6",
+      "emotion": "connected_wifi"
+    },
+    {
+      "fileName": "connect_failed_7",
+      "emotion": "connect_failed"
+    },
+    {
+      "fileName": "idle_8",
+      "emotion": "idle"
+    },
+    {
+      "fileName": "sleep_9",
+      "emotion": "sleep"
+    },
+    {
+      "fileName": "error_10",
+      "emotion": "error"
+    },
+    {
+      "fileName": "prompt_11",
+      "emotion": "prompt"
+    },
+    {
+      "fileName": "find_music_12",
+      "emotion": "find_music"
+    },
+    {
+      "fileName": "finding_music_13",
+      "emotion": "finding_music"
+    },
+    {
+      "fileName": "found_music_14",
+      "emotion": "found_music"
+    },
+    {
+      "fileName": "play_music_15",
+      "emotion": "play_music"
+    },
+    {
+      "fileName": "music_not_found_16",
+      "emotion": "music_not_found"
+    },
+    {
+      "fileName": "music_not_found_16",
+      "emotion": "joox_error"
+    },
+    {
+      "fileName": "turn_light_on_18",
+      "emotion": "turn_light_on"
+    },
+    {
+      "fileName": "turn_light_off_19",
+      "emotion": "turn_light_off"
+    },
+    {
+      "fileName": "turn_air_on_20",
+      "emotion": "turn_air_on"
+    },
+    {
+      "fileName": "turn_air_off_21",
+      "emotion": "turn_air_off"
+    },
+    {
+      "fileName": "set_air_temp_22",
+      "emotion": "set_air_temp"
+    },
+    {
+      "fileName": "home_automation_error_23",
+      "emotion": "home_automation_error"
+    },
+    {
+      "fileName": "home_automation_24",
+      "emotion": "home_automation"
+    },
+    {
+      "fileName": "setting_reminder_25",
+      "emotion": "setting_reminder"
+    },
+    {
+      "fileName": "set_reminder_ok_26",
+      "emotion": "set_reminder_ok"
+    },
+    {
+      "fileName": "setting_alarm_27",
+      "emotion": "setting_alarm"
+    },
+    {
+      "fileName": "set_alarm_ok_28",
+      "emotion": "set_alarm_ok"
+    },
+    {
+      "fileName": "retrieving_iaq_info_29",
+      "emotion": "retrieving_iaq_info"
+    },
+    {
+      "fileName": "iaq_info_30",
+      "emotion": "iaq_info"
+    },
+    {
+      "fileName": "turn_on_camera_31",
+      "emotion": "turn_on_camera"
+    },
+    {
+      "fileName": "overlay_321_32",
+      "emotion": "overlay_321"
+    },
+    {
+      "fileName": "save_photo_ok_33",
+      "emotion": "save_photo_ok"
+    },
+    {
+      "fileName": "save_photo_error_34",
+      "emotion": "save_photo_error"
+    },
+    {
+      "fileName": "change_thai_35",
+      "emotion": "change_thai"
+    },
+    {
+      "fileName": "change_eng_36",
+      "emotion": "change_eng"
+    },
+    {
+      "fileName": "change_chinese_37",
+      "emotion": "change_chinese"
+    },
+    {
+      "fileName": "connect_3rd_party_38",
+      "emotion": "connect_3rd_party"
+    },
+    {
+      "fileName": "connecting_3rd_party_39",
+      "emotion": "connecting_3rd_party"
+    },
+    {
+      "fileName": "connect_3rd_party_ok_40",
+      "emotion": "connect_3rd_party_ok"
+    },
+    {
+      "fileName": "connect_3rd_party_failed_41",
+      "emotion": "connect_3rd_party_failed"
+    },
+    {
+      "fileName": "volume_up_42",
+      "emotion": "volume_up"
+    },
+    {
+      "fileName": "volume_down_43",
+      "emotion": "volume_down"
+    },
+    {
+      "fileName": "new_coming_message_44",
+      "emotion": "new_coming_message"
+    },
+    {
+      "fileName": "check_inbox_45",
+      "emotion": "check_inbox"
+    },
+    {
+      "fileName": "checking_inbox_46",
+      "emotion": "checking_inbox"
+    },
+    {
+      "fileName": "has_message_47",
+      "emotion": "has_message"
+    },
+    {
+      "fileName": "no_message_48",
+      "emotion": "no_message"
+    },
+    {
+      "fileName": "fail_message_49",
+      "emotion": "fail_message"
+    },
+    {
+      "fileName": "clear_day_50",
+      "emotion": "clear_day"
+    },
+    {
+      "fileName": "clear_night_51",
+      "emotion": "clear_night"
+    },
+    {
+      "fileName": "rain_52",
+      "emotion": "rain"
+    },
+    {
+      "fileName": "snow_53",
+      "emotion": "snow"
+    },
+    {
+      "fileName": "sleet_54",
+      "emotion": "sleet"
+    },
+    {
+      "fileName": "wind_55",
+      "emotion": "wind"
+    },
+    {
+      "fileName": "fog_56",
+      "emotion": "fog"
+    },
+    {
+      "fileName": "cloudy_57",
+      "emotion": "cloudy"
+    },
+    {
+      "fileName": "partly_cloudy_day_58",
+      "emotion": "partly_cloudy_day"
+    },
+    {
+      "fileName": "partly_cloudy_night_59",
+      "emotion": "partly_cloudy_night"
+    },
+    {
+      "fileName": "hail_60",
+      "emotion": "hail"
+    },
+    {
+      "fileName": "thunderstorm_61",
+      "emotion": "thunderstorm"
+    },
+    {
+      "fileName": "tornado_62",
+      "emotion": "tornado"
+    },
+    {
+      "fileName": "where_to_go_63",
+      "emotion": "where_to_go"
+    },
+    {
+      "fileName": "check_traffic_64",
+      "emotion": "check_traffic"
+    },
+    {
+      "fileName": "checking_traffic_65",
+      "emotion": "checking_traffic"
+    },
+    {
+      "fileName": "traffic_result_66",
+      "emotion": "traffic_result"
+    },
+    {
+      "fileName": "traffic_error_67",
+      "emotion": "traffic_error"
+    },
+    {
+      "fileName": "invoke_cctv_68",
+      "emotion": "invoke_cctv"
+    },
+    {
+      "fileName": "finding_mantra_69",
+      "emotion": "finding_mantra"
+    },
+    {
+      "fileName": "found_mantra_70",
+      "emotion": "found_mantra"
+    },
+    {
+      "fileName": "no_mantra_found_71",
+      "emotion": "no_mantra_found"
+    },
+    {
+      "fileName": "finding_tale_story_72",
+      "emotion": "finding_tale_story"
+    },
+    {
+      "fileName": "found_tale_story_73",
+      "emotion": "found_tale_story"
+    },
+    {
+      "fileName": "no_tale_story_74",
+      "emotion": "no_tale_story"
+    },
+    {
+      "fileName": "which_genre_podcast_75",
+      "emotion": "which_genre_podcast"
+    },
+    {
+      "fileName": "finding_podcast_76",
+      "emotion": "finding_podcast"
+    },
+    {
+      "fileName": "found_podcast_77",
+      "emotion": "found_podcast"
+    },
+    {
+      "fileName": "no_podcast_found_78",
+      "emotion": "no_podcast_found"
+    },
+    {
+      "fileName": "",
+      "emotion": "happy"
+    },
+    {
+      "fileName": "loading_3",
+      "emotion": "update_loading"
+    },
+    {
+      "fileName": "prompt_11",
+      "emotion": "update_finish"
+    },
+    {
+      "fileName": "prompt_11",
+      "emotion": "already_update"
+    },
+    {
+      "fileName": "horoscope_loading_83",
+      "emotion": "horoscope_loading"
+    },
+    {
+      "fileName": "horoscope_84",
+      "emotion": "horoscope"
+    }
+  ]
+}

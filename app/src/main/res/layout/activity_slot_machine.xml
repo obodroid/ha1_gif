@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    tools:context="com.obodroid.kaitomm.gifplayer.SlotMachineActivity"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1">
+
+        <ViewFlipper
+            android:id="@+id/bckgrndViewFlipper1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            >
+        </ViewFlipper>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:layout_weight="1">
+
+        <ViewFlipper
+            android:id="@+id/bckgrndViewFlipper2"
+            android:layout_width="fill_parent"
+            android:layout_gravity="center"
+            android:layout_height="fill_parent">
+
+            <TextView
+                android:id="@+id/text"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="80sp"
+                android:textColor="#FFF"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:text="@string/slot"/>
+
+        </ViewFlipper>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1">
+
+        <ViewFlipper
+            android:id="@+id/bckgrndViewFlipper3"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+        </ViewFlipper>
+    </LinearLayout>
+</LinearLayout>
