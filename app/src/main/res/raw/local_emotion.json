@@ -1,39 +1,39 @@
 {
   "emotionMap": [
     {
-      "fileName": "idle_8",
+      "fileName": "idle",
       "emotion": "idle"
     },
     {
-      "fileName": "wakeup_1",
+      "fileName": "wakeup",
       "emotion": "wakeup"
     },
     {
-      "fileName": "listen_2",
-      "emotion": "listen"
+      "fileName": "sad",
+      "emotion": "sad"
     },
     {
-      "fileName": "loading_3",
+      "fileName": "loading",
       "emotion": "loading"
     },
     {
-      "fileName": "happy_79",
+      "fileName": "happy",
       "emotion": "happy"
     },
     {
-      "fileName": "connect_wifi_4",
+      "fileName": "connect_wifi",
       "emotion": "connect_wifi"
     },
     {
-      "fileName": "sleep_9",
+      "fileName": "sleep",
       "emotion": "sleep"
     },
     {
-      "fileName": "prompt_11",
+      "fileName": "prompt",
       "emotion": "prompt"
     },
     {
-      "fileName": "error_10",
+      "fileName": "error",
       "emotion": "error"
     }
   ]
