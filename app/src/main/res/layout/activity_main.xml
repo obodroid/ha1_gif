@@ -1,86 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/black"
-    android:keepScreenOn="true"
-    android:onClick="onClick"
-    tools:context=".MainActivity">
+    android:orientation="horizontal"
+    android:background="@android:color/black">
 
-    <androidx.fragment.app.FragmentContainerView
-        android:id="@+id/fragment_container"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent" />
-
-    <TextView
-        android:id="@+id/text"
-        android:layout_width="match_parent"
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="200dp"
         android:layout_height="match_parent"
-        android:background="@drawable/black"
-        android:gravity="center"
-        android:textColor="@color/colorKaitommEye"
-        android:textStyle="bold"
-        android:visibility="gone"
-        tools:text="thtshths hdlcgh/chlclhlchlchlc"
-        tools:visibility="invisible" />
+        android:background="#222" />
 
-    <TextView
-        android:id="@+id/emotion_text"
-        android:layout_width="match_parent"
-        android:layout_height="110dp"
-        android:layout_gravity="center|bottom"
-        android:layout_margin="32dp"
-        android:gravity="center"
-        android:lines="1"
-        android:textColor="@color/colorKaitommEye"
-        android:textSize="80sp"
-        android:visibility="invisible"
-        tools:text="Emotion: Idle" />
-
-    <androidx.fragment.app.FragmentContainerView
-        android:id="@+id/webViewContainer"
-        android:layout_width="match_parent"
+    <FrameLayout
+        android:layout_width="0dp"
         android:layout_height="match_parent"
-        android:visibility="invisible" />
-
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="end|center_vertical"
-        android:orientation="vertical">
+        android:layout_weight="1">
 
         <ImageView
-            android:id="@+id/volumeStatus"
+            android:id="@+id/gifImageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitCenter" />
+
+        <TextView
+            android:id="@+id/currentEmotionText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginVertical="4dp"
-            android:src="@drawable/ic_volume_down"
-            android:tint="@color/colorKaitommEye" />
-
-        <ImageView
-            android:id="@+id/wifiStatus"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginVertical="4dp"
-            android:src="@drawable/ic_wifi_off"
-            android:tint="@color/colorKaitommEye" />
-
-        <ImageView
-            android:id="@+id/homeStatus"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginVertical="4dp"
-            android:src="@drawable/ic_domain_disabled"
-            android:tint="@color/colorKaitommEye" />
-
-        <ImageView
-            android:id="@+id/batteryStatus"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginVertical="4dp"
-            android:src="@drawable/ic_battery_3_bar"
-            android:tint="@color/colorKaitommEye" />
-    </LinearLayout>
-
-</FrameLayout>
+            android:layout_gravity="bottom|center_horizontal"
+            android:layout_marginBottom="32dp"
+            android:textColor="@android:color/white"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </FrameLayout>
+</LinearLayout>
