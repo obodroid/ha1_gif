@@ -1,6 +1,8 @@
 package com.obodroid.kaitomm.gifplayer
 
+import android.content.Intent
 import android.os.Bundle
+
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
@@ -28,8 +30,15 @@ class MainActivity : AppCompatActivity() {
         loadEmotions()
         setupRecyclerView()
 
-        handleIntent()
+        handleIntent(intent)
     }
+
+    override fun onNewIntent(intent: Intent?) {
+        super.onNewIntent(intent)
+        setIntent(intent)
+        handleIntent(intent)
+    }
+
 
     private fun loadEmotions() {
         try {
@@ -62,8 +71,10 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    private fun handleIntent() {
+    private fun handleIntent(intent: Intent?) {
+        if (intent == null) return
         val index = intent.getIntExtra("index", -1)
+
         if (index >= 0 && index < emotions.size) {
             showGif(emotions[index])
             return
