@@ -57,6 +57,10 @@ class MainActivity : AppCompatActivity() {
 
     private fun handleIntent(intent: Intent?) {
         if (intent == null) return
+        if (intent.getBooleanExtra("finish", false)) {
+            finish()
+            return
+        }
         val index = intent.getIntExtra("index", -1)
 
         if (index >= 0 && index < emotions.size) {
